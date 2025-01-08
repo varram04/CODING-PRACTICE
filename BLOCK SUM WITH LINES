@@ -1,0 +1,28 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("Enter no of blocks");
+	    int block= sc.nextInt();
+	    System.out.println("Enter no of lines");
+	    int line = sc.nextInt();
+	    int hi = sc.nextInt();
+	    System.out.println("Enter no of hi");
+	    int c = 0;
+	    for(int i=0;i<block;i++)
+	    {
+	        for (int j=0;j<line;j++)
+	        {
+	            for (int k=0;k<hi;k++)
+	            {
+	                System.out.print("hai ");
+	                c++;
+	            }
+	            System.out.println(c);
+	            System.out.println("-------------------");
+	        }
+	    }
+
+}
+}
+
