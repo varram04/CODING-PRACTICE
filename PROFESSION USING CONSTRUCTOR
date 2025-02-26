@@ -1,0 +1,39 @@
+class Person { 
+    String name;
+    int age;
+    static final String profession = "ACTING";
+    
+    Person(String a, int b)
+    {
+        name = a;
+        age = b;
+        
+    }
+    
+    void display()
+    {
+        System.out.println("Name is"+name+"and age is "+age+"Profession is"+profession);
+    }
+    
+    
+    
+    
+    
+    
+}
+
+public class Main { 
+    public static void main (String [] args)
+    {
+        String [] names = {"Vijay","Ajith","Surya","Vikram"};
+        int[] age = {40,34,56,77};
+        Person[] p = new Person[4];
+        for (int i=0;i<=3;i++){
+            p[i] = new Person(names[i],age[i]);
+            p[i].display();
+        }
+        
+    }
+    
+
+}
