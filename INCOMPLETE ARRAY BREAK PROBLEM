@@ -1,0 +1,47 @@
+mport java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = Scanner(System.in);
+        System.out.println("ENTER any num");
+        int num = sc.nextInt();
+        int i,res;  
+        int[] arr = new arr[n];
+        while(1)
+        {
+            int i=2;
+            if(prime(i));
+            {
+               arr[j] = i;
+               c++;
+               j++;
+            }
+            i++;
+            if(c==n)
+            break;
+            
+            
+        }
+        Arrays.sort(arr);
+        int len1=arr.length;
+        for(int z=0;z<arr.len)
+        
+        
+    }
+    
+    static boolean prime(int i) 
+    {
+        int factor=0;
+        for (int t=2;t<i;t++)
+        {
+            if(i%t==0)
+            factor++;
+            
+        }
+        
+        if(factor==0)
+        
+    }
+}
