@@ -1,0 +1,20 @@
+public class Main 
+{
+    public static void main(String[] args)
+    {
+        int N = 2345505;
+        System.out.println("N:"+N);
+        int digits = countDigits(N);
+        System.out.println("the digit is "+ digits);
+        
+    }
+    
+    static int countDigits(int N)
+    {
+        int count = (int) (Math.log10(N)+1);
+        return count;
+        
+    }
+    
+    
+}
