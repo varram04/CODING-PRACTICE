@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Solution 
+{
+    public int reverse(int x) 
+    {
+        long revnum = 0 ;
+        while(x!=0) 
+        {
+            int lastdigit = x % 10;
+            x = x/=10;
+            revnum = (revnum*10) + lastdigit ;
+        }
+        if(revnum > Integer.MAX_VALUE || revnum < Integer.MIN_VALUE) {
+        return 0;
+        }
+        return (int) revnum;
+        
+    }
+}
